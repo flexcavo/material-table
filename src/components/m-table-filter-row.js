@@ -52,7 +52,7 @@ class MTableFilterRow extends React.Component {
     }, [columnDef.tableData.filterValue]);
 
     return (
-      <FormControl style={{ width: "100%" }}>
+      <FormControl style={{ width: "100%" }} variant="standard">
         <InputLabel
           htmlFor={"select-multiple-checkbox" + columnDef.tableData.id}
           style={{ marginTop: -16 }}

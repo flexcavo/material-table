@@ -236,6 +236,7 @@ var MTableFilterRow = /*#__PURE__*/ (function (_React$Component) {
             style: {
               width: "100%",
             },
+            variant: "standard",
           },
           /*#__PURE__*/ React.createElement(
             _InputLabel.default,

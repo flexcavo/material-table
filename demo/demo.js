@@ -513,6 +513,7 @@ class App extends Component {
                     //   },
                     // }}
                     options={{
+                      filtering: true,
                       tableLayout: "fixed",
                       columnResizable: true,
                       headerSelectionProps: {
